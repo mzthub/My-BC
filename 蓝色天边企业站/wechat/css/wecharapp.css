@@ -1,0 +1,233 @@
+@charset "utf-8";
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,th,td,a,img,span,strong,var,em,input,textarea,select,option{margin: 0; padding: 0;}
+html,body{font-family:"微软雅黑","宋体",Arail,Tabhoma; font-size: 12px; text-align: left;}
+ul,ol{list-style: none;}
+img{border: 0;}
+input,select,textarea{outline:0;}
+textarea{resize:none; overflow: auto;}
+table{border-collapse: collapse; border-spacing: 0;}
+th,strong,var,em{font-weight: normal; font-style: normal;}
+a{text-decoration: none;}
+
+/*==========================Reset_End===========================*/
+html{
+	font-size: 100px;
+}
+.outer{
+	/* min-width: 7.5rem; */
+	width: 7.5rem;
+	overflow: hidden;
+}
+#outer_nei{
+	background: url("../img/bj11.png") 0 0 no-repeat;
+	background-size:100%;	
+	transition: background-size 1.5s linear;
+}
+#outer_nei .inner{
+	width: 6.12rem;
+	margin: 0 auto;
+}
+.tou{
+	position: relative;
+}
+.logo{
+	width: 1.98rem;
+	height: 1.1rem;
+	margin: 0.75rem 0 0.4rem;
+	float: left;
+}
+.tou:after{
+	clear: both;
+	content: "\200B";
+	display: block;
+	height: 0;
+}
+.xuanxiang{
+	color: #ffffff;
+	float: right;
+	background: url("../img/meng2.png")0 0 repeat;
+	width: 1.04rem;
+	height: 1.56rem;
+	/* line-height: 1.56rem; */
+	font-size: 0.2rem;
+	position: absolute;
+	right: 0.8rem;
+	top: 1.19rem;
+}
+#nav{
+	float: right;
+	width: 0.46rem;
+	height: 0.35rem;
+	background-size:100% ;
+	margin: 1.19rem 0.18rem 0 0;
+	z-index: 1;
+}
+/* -------------------- */
+#rc_h_right2{
+	width: 1.04rem;
+	height: 1.56rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #fff;
+	background: rgba(26,26,26,0.6);
+	position: absolute;
+	top: 1.18rem;
+	right: 0.69rem;
+	z-index: 2;
+	display: none;
+}
+#rc_h_right2 a{
+	display: block;
+	color: #fff;
+	height: 0.3rem;
+}
+
+#rc_h_right2 a:nth-child(4){
+	font-size: 0.25rem;
+}
+.xuanxiang a{
+	display: block;
+	height: 0.16rem;
+	color:#ffffff;
+	line-height: 0.16rem;
+	margin-bottom:0.19rem;
+	text-align: center;
+}
+.xuanxiang{
+	display:none;
+}
+.xuanxiang span{
+	display:block;
+	height: 0.16rem;
+	color:#b2b2b2;
+	line-height: 0.16rem;
+	margin-bottom: 0.15rem;
+	text-align: center;
+}
+.con{
+	background:url("../img/meng.png")0 0 repeat;
+	width: 6.12rem;
+	height: 9.64rem;
+	color: #ffffff;
+	text-align: center;
+}
+.con h1{
+	padding-top: 0.3rem;
+	margin-bottom: 0.15rem;
+	font-size: 0.36rem;
+	height: 0.36rem;
+}
+.con .p0{
+	font-size: 0.18rem;
+	font-family:Microsoft YaHei;
+	height: 0.18rem;
+	color: #a7a7a7;
+}
+.content{
+	width: 5.71rem;
+	height: 4.56rem;
+	margin: 0 auto;
+	margin-top: 0.3rem;
+	border: 0.01rem solid #d2d2d2;
+	border-radius: 0.05rem;
+	text-align: left;
+	overflow: auto;
+}
+.content .jieshao{
+	float: left;
+}
+.content p{
+	font-size: 0.16rem;
+	margin-top: 0.7rem;
+}
+.erweima{
+	background: url("../img/erweima.png")0 0 no-repeat;
+	background-size:100% ;
+	width: 3.19rem;
+	height: 3.2rem;
+	float: right;
+	margin-top:0.5rem;
+}
+.erweimanei{
+	background-color: black;
+	opacity: 0.2;
+	width: 3.19rem;
+	height: 3.2rem;
+}
+.content li:nth-child(1){
+	/* display: none; */
+}
+.content li:nth-child(3){
+	display: none;
+}
+.content li:nth-child(2){
+	display: none;
+}
+.content li:nth-child(2) p{
+	color: #efefef;
+	margin: 0.6rem 0.25rem;
+	font-size: 0.17rem;
+	/* line-height: 0.4rem; */
+}
+.content .p4{
+	margin: 0.6rem 0.25rem 0 0.2rem;
+	text-indent: 2em;
+}
+.content .gonglue{
+	margin: 0.7rem 0 0 0.2rem;
+}
+.content li:nth-child(4) p{
+	color: #efefef;
+	margin: 0.6rem 0.25rem;
+	font-size: 0.17rem;
+}
+.content li:nth-child(4){
+	display: none;
+}
+.xuan{
+	position: relative;
+}
+.xuan li{
+	width: 3.06rem;
+	height: 1.6rem;
+	text-align: center;
+}
+.xuan li:nth-child(1){
+	float: left;
+}
+
+.xuan li:nth-child(2){
+	float: right;
+}
+.xuan li:nth-child(4){
+	float: right;
+}
+.xuan li p{
+	width: 3.06rem;
+	display: inline-block;
+}
+.p9:nth-child(1){
+	font-size: 0.22rem;
+	padding-top: 0.8rem;
+}
+.xuan .p10{
+	font-size: 0.18rem;
+}
+.xuan .te2 .p9{
+	font-size: 0.26rem;
+}
+.xuan .te2 .p10{
+	font-size: 0.22rem;
+}
+.inner2{
+	height: 0.76rem;
+	line-height: 0.76rem;
+	text-align: center;
+	border-top: 1px solid #ffffff;
+}
+.inner2 p{
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+}

@@ -1,0 +1,268 @@
+    html {
+      font-size: 100px;
+      height: 100%;
+      background: #000;
+    }
+    body {
+      /* Old browsers */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#090b44', endColorstr='#00001c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      padding: 0;
+      text-align: center;
+      font-family: 'open sans';
+      margin: 0;
+      height: 100%;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      overflow: hidden;
+    }
+    #bg{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: scale(1.05,1.05);
+      animation: bg 1.5s linear 7s;
+      -webkit-animation-fill-mode: forwards;
+    }
+    #bg-m{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.3;
+      background-color: #000;
+    }
+    #cav1,#cav2 {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      position: fixed;
+    }
+    @keyframes bg {
+      from{
+        background: url(../img/Welcome/welcome.png) center center no-repeat; 
+        background-size: 0% 0%;
+      }
+      to{
+        background: url(../img/Welcome/welcome.png) center center no-repeat; 
+        /* background-size: 19.2rem 9.56rem; */
+        background-size: 100% 100%;
+      }
+    }
+    @keyframes logo {
+      0%{
+        opacity: 0;
+        background: #000;
+      }
+      10%{
+        opacity: 0.5;
+        background: #000;
+      }
+      70%{
+        opacity: 1;
+        top: 4.23rem;
+        left: 8.61rem;
+        background: #000;
+      }
+      100%{
+        top: 1.75rem;
+        left: 5.58rem;
+      }
+    }
+    .bg{
+      width: 100%;
+      height: 100%;
+    }
+    #logo{
+      width: 1.98rem;
+      height: 1.1rem;
+      position: absolute;
+      top: 4.23rem;
+      left: 8.61rem;
+      animation: logo 3s linear;
+      -webkit-animation-fill-mode: forwards;
+    }
+    #top{
+      position: absolute;
+      width: 5.82rem;
+      height: 0.05rem;
+      top: 2.31rem;
+      left: 7.74rem;
+      animation: top 1s linear 3s;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes top {
+      from{
+         background: url(../img/Welcome/top.png) -5.82rem 0 no-repeat;
+         background-size: 100% 100%;
+      }
+      to{
+         background: url(../img/Welcome/top.png) 0 0 no-repeat;
+         background-size: 100% 100%;
+      }
+    }
+    #right{
+      position: absolute;
+      width: 0.05rem;
+      height: 4.93rem;
+      top: 2.36rem;
+      left: 13.51rem;
+      animation: right 1s linear 4s;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes right {
+      from{
+         background: url(../img/Welcome/right.png) 0 -4.93rem no-repeat;
+         background-size: 100% 100%;
+      }
+      to{
+         background: url(../img/Welcome/right.png) 0 0 no-repeat;
+         background-size: 100% 100%;
+      }
+    }
+    #bottom{
+      position: absolute;
+      width: 7.94rem;
+      height: 0.05rem;
+      top: 7.24rem;
+      left: 5.57rem;
+      animation: bottom 1s linear 5s;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes bottom {
+      from{
+         background: url(../img/Welcome/bottom.png) 7.94rem 0 no-repeat;
+         background-size: 100% 100%;
+      }
+      to{
+         background: url(../img/Welcome/bottom.png) 0 0 no-repeat;
+         background-size: 100% 100%;
+      }
+    }
+    #left{
+      position: absolute;
+      width: 0.05rem;
+      height: 4.34rem;
+      top: 2.91rem;
+      left: 5.56rem;
+      animation: left 1s linear 6s;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes left {
+      from{
+         background: url(../img/Welcome/left.png) 0 4.34rem no-repeat;
+         background-size: 100% 100%;
+      }
+      to{
+         background: url(../img/Welcome/left.png) 0 0 no-repeat;
+         background-size: 100% 100%;
+      }
+    }
+    #LANDWELL{
+      width: 4.69rem;
+      height: 0.41rem;
+      position: absolute;
+      top: 3.75rem;
+      left: 7.25rem;
+      animation: LANDWELL 1s linear 8s;
+      opacity: 0;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes LANDWELL {
+      from{
+          opacity: 0;
+          transform: translateY(-30px);
+      }
+      to{
+          opacity: 1;
+          transform: translateY(0px);
+      }
+    }
+    #Welcome{
+      width: 4.74rem;
+      height: 0.91rem;
+      position: absolute;
+      top: 4.52rem;
+      left: 7.24rem;
+      animation: Welcome 1s linear 8.5s;
+      opacity: 0;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes Welcome {
+      from{
+          opacity: 0;
+          transform: translateY(-30px);
+      }
+      to{
+          opacity: 0.8;
+          transform: translateY(0px);
+      }
+    }
+    #Homeofdesign{
+      width: 4.71rem;
+      height: 0.15rem;
+      position: absolute;
+      top: 5.61rem;
+      left: 7.26rem;
+      animation: Homeofdesign 1s linear 8.5s;
+      opacity: 0;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes Homeofdesign {
+      from{
+          opacity: 0;
+          transform: translateY(20px);
+      }
+      to{
+          opacity: 0.9;
+          transform: translateY(0px);
+      }
+    }
+    #more{
+      display: inline-block;
+      width: 1.4rem;
+      height: 0.42rem;
+      position: absolute;
+      top: 7.99rem;
+      left: 8.9rem;
+      background: url(../img/Welcome/more-1.png) 0 0 no-repeat;
+      background-size: 100%;
+      animation: more 1s linear 8.5s;
+      opacity: 0;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes more {
+      from{
+          opacity: 0;
+          transform: translateY(30px);
+      }
+      to{
+          opacity: 0.9;
+          transform: translateY(0px);
+      }
+    }
+    #more-a{
+      display: inline-block;
+      width: 0.1rem;
+      height: 0.09rem;
+      background: url(../img/Welcome/more-2.png) 0 0 no-repeat;
+      background-size: 100%;
+      position: absolute;
+      top: 8.55rem;
+      left: 9.55rem;
+      opacity: 0;
+      animation: more-a 1s linear 8.5s infinite;
+      -webkit-animation-fill-mode: forwards;
+    }
+    @keyframes more-a {
+      from{
+          opacity: 0;
+          transform: translateY(10px);
+      }
+      to{
+          opacity: 1;
+          transform: translateY(0px);
+      }
+    }

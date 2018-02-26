@@ -1,0 +1,163 @@
+html{ font-size: 100px;}
+.Xiouter{
+	width: 19.2rem;
+	height: 9.6rem;	
+	background: url("../img/bg.png") 0 0 no-repeat;
+	background-size: 19.2rem 9.6rem;
+}
+.Xiinner{
+	width: 12.8rem;
+	margin: 0 auto;
+}
+.Xihead_outer{
+	width: 12.82rem;
+	height: 1.72rem;
+}
+.Xilogo{
+	width: 1.98rem;
+	height: 1.1rem;
+	margin-top: 0.23rem;
+}
+#nav,#rc_h_right2{
+	display: none;
+}
+.Xihead{
+	width: 8.28rem;
+	float: right;
+	margin-top: 0.82rem;
+	overflow: hidden;
+}
+.Xihead ul{
+	height: 0.2rem;
+}
+.Xihead ul:nth-child(1){
+	width: 9rem;
+}
+.Xihead ul:nth-child(2){
+	margin-top: 0.28rem;
+}
+.Xihead ul a,li{
+	float: left;
+	color: #fff;
+	font-size: 0.2rem;
+}
+.Xihead_top a{
+	width: 1.72rem;
+	height: 0.2rem;
+	line-height: 0.2rem;
+	text-align: center;
+	border-right: 1px solid #fff;
+}
+.Xihead_top a:nth-child(3){
+	font-size: 0.23rem;
+}
+#Xihead_bottom li{
+	cursor: pointer;
+	width: 0.69rem;
+	height: 0.3rem;
+	margin-right: 0.46rem;
+	margin-top: 0.2rem;
+}
+#Xihead_bottom li:nth-child(1){
+	margin-left: 2.4rem;
+}
+#Xihead_bottom .select{
+	font-size: 0.18rem;
+}
+#Xicon_outer{
+	width: 12.8rem;
+	height: 7.2rem;
+	position: relative;
+	background-color: #000;
+}
+#Xihead_bottom1{
+	display: none;
+}
+/* 轮播内容 */
+#Xicon_inner{
+	margin: 0 auto;
+	width: 8.43rem;
+	height: 7.2rem;
+	overflow: hidden;
+}
+#Xicon_inner div{
+	width: 8.43rem;
+	height: 7.2rem;
+	overflow: hidden;
+	display: none;
+}
+#Xicon_inner p{
+	width: 50rem;
+	height: 7.2rem;
+}
+#Xicon_inner .show{
+	display: block;
+}
+#Xicon_inner img{
+	width: 8.43rem;
+	height: 7.2rem;
+	float: left;
+}
+#Ximeng{
+	width: 12.8rem;
+	height: 7.2rem;
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.2;
+	z-index: 1;
+}
+#Xicon_outer>p{
+	cursor: pointer;
+	z-index: 2;
+	position: absolute;	
+}
+#Xileft{
+	width: 2.22rem;
+	height: 3.47rem;
+	left: 10.59rem;
+	border: 1px solid #6f6f6f;	
+	background: url("../img/右箭头.png") center center no-repeat;
+	background-color: #000;
+}
+#Xiright{
+	width: 2.22rem;
+	height: 3.73rem;
+	left: 10.59rem;
+	top: 3.47rem;
+	border: 1px solid #6f6f6f;	
+	background: url("../img/左箭头.png") center center no-repeat;
+	background-color: #000;
+}
+#Xilist{
+	cursor: pointer;
+	z-index: 2;
+	left: 0.7rem;
+	top: 4.9rem;
+}
+#Xilist em{
+	display: block;
+	color: #fff;
+}
+#Xilist em:nth-child(1){
+	height: 0.53rem;
+	font-size: 0.72rem;
+	font-family: Arial;
+	font-weight: bold;
+}
+#Xilist em:nth-child(2){
+	height: 0.16rem;
+	font-size: 0.18rem;
+	margin-top: 0.16rem;
+	font-family: Calibri Italic;
+	font-style: italic;
+}
+#Xilist em:nth-child(3){
+	width: 0.86rem;
+	height: 0.26rem;
+	background: url("../img/more.png") 0 0 no-repeat;
+	background-size: 0.86rem 0.16rem;
+	margin-top: 0.26rem;
+}
+

@@ -1,0 +1,180 @@
+	#bg{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url(../img/shouye/shouye.png) center center no-repeat;
+		background-size: 19.2rem 100%;
+	}
+	#bg-m{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #000;
+		opacity: 0.4;
+	}
+	#nav{
+		display: none;
+		position: absolute;
+		top: 0.83rem;
+		right: 1.7rem;
+	}
+	#nav a{
+		float: left;
+		font-size: 0.15rem;
+		line-height: 0.15rem;
+		color: #fff;
+		padding-right: 0.6rem;
+		padding-left: 0.48rem;
+		border-right: 1px solid #fff;
+	}
+	#bor{
+		background: url(../img/shouye/bor2.png) center center no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 2.02rem;
+		left: 0.49rem;
+		width: 6.46rem;
+		height: 9.05rem;
+	}
+	#logo{
+		background: url(../img/shouye/logo2.png) center center no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 1.82rem;
+		left: 0.71rem;
+		width: 1.98rem;
+		height: 1.1rem;
+	}
+	p{
+		position: absolute;
+		bottom: 0.29rem;
+		left: 0.38rem;
+		font-size: 0.10rem;
+		line-height: 0.10rem;
+		color: #fff;
+	}
+	p b{
+		color: #fff;
+	}
+	#menu{
+		position: absolute;
+		width: 0.46rem;
+		height: 0.35rem;
+		top: 1.19rem;
+		left: 6.2rem;
+	}
+	u:nth-child(1){
+		position: absolute;
+		top: 3.05rem;
+		left: 2.35rem;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/人.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	u:nth-child(2){
+		position: absolute;
+		top: 3.05rem;
+		left: 3.31rem;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/sanjiao2.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	u:nth-child(3){
+		position: absolute;
+		top: 4.7rem;
+		left: 3.31rem;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/design.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	u:nth-child(4){
+		position: absolute;
+		top: 6.35rem;
+		left: 1.39rem;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/sanjiao2.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	u:nth-child(4):after{
+		content: "\200B";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/hsanjiao.png) center center no-repeat;
+		background-size: 100%;
+		animation: one 5s linear 1.5s infinite;
+	}
+	u:nth-child(5){
+		position: absolute;
+		top: 6.35rem;
+		left: 2.35rem;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/sanjiao.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	u:nth-child(5):after{
+		content: "\200B";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/hsanjiao2.png) center center no-repeat;
+		background-size: 100%;
+		animation: one 6s linear 2s infinite;
+	}
+	u:nth-child(6){
+		position: absolute;
+		top: 6.35rem;
+		left: 4.27rem;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/videos.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	u:nth-child(7){
+		position: absolute;
+		top: 8.02rem;
+		left: 1.39rem;
+		width: 1.92rem;
+		height: 1.67rem;
+		background: url(../img/shouye/项链.png) 0 0 no-repeat;
+		background-size: 100%;
+	}
+	u:nth-child(8){
+		display: none;
+	}
+	u:nth-child(9){
+		display: none;
+	}
+	u:nth-child(10){
+		display: none;
+	}
+	u:nth-child(11){
+		display: none;
+	}
+	u:nth-child(12){
+		display: none;
+	}
+	u:nth-child(13){
+		display: none;
+	}
+	@keyframes one {
+		0%{
+			opacity: 0;
+		}
+		8%{
+			opacity: 1;
+		}
+	}

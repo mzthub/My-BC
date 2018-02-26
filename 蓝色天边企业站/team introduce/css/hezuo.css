@@ -1,0 +1,459 @@
+#bj00{
+	width: 19.2rem;
+	/* height:733px; */
+/* 	height: 9.2rem; */
+	background: url(./img/bj.jpg) 0 0 no-repeat;
+	/* background-size: 19.2rem 733px; */
+	background-size:100% 100%;
+}
+.outer{
+	width: 12.8rem;
+	margin: 0 auto;
+}
+.con-tou{
+	overflow: hidden;
+}
+#nav,#rc_h_right2{
+	display: none;
+}
+.img0{
+	float: left;
+	width: 1.98rem;
+	height: 1.1rem;
+	margin-top: 0.23rem;
+}
+#con-daohang{
+	float: right;
+	margin-top: 0.78rem;
+
+}
+#con-daohang a{
+	font-size: 0.2rem;
+	color: #fff;
+	padding: 0 0.5rem;
+	border-right: 1px solid #fff;
+}
+#con-daohang a:nth-child(2){
+	font-size: 0.25rem;
+}
+#con-daohang a:nth-child(5){
+	border: none;
+	padding:0 0 0 0.5rem;
+}
+.con-zhong{
+	overflow: hidden;
+	padding-top: 1.11rem;
+	padding-bottom: 1.75rem;
+}
+.con-zuo{
+	float: left;
+	color: #FFF;
+}
+.con-zuo h2{
+	font-size: 0.3rem;
+	margin-bottom: 0.45rem;
+}
+.con-zuo p{
+	font-size: 0.2rem;
+	width: 3.7rem;
+	margin-left: 0.45rem;
+}
+.con-zuo h3{
+	margin-left: 0.45rem;
+	font-size: 0.23rem;
+	margin-top:0.35rem ;
+}
+.con-zuo h3 span{
+	display: block;
+}
+.con-you{
+	width: 7.7rem;
+	float: right;
+	margin-right: 0.18rem;
+	position: relative;
+
+}
+.con-you #ul1 img{
+	width: 1.87rem;
+	margin-bottom:0.84rem;
+
+}
+.con-you .img1{
+	margin: 0 0.84rem 0.84rem 0.84rem ;
+}
+.con-you .img2{
+	margin: 0 0.84rem 0.84rem 0.84rem ;
+}
+
+.con-you #p1{
+	width: 1rem;
+	margin: -0.4rem auto;
+}
+.con-you #p1 .span1{
+	display: inline-block;
+	width: 0.13rem;
+	height: 0.13rem;
+	background: red;
+	border-radius: 50%;
+	margin-right: 0.13rem;
+}
+.con-you #p1 .span2{
+	display: inline-block;
+	width: 0.13rem;
+	height: 0.13rem;
+	background: #fff;
+	border-radius: 50%;
+	margin-right: 0.13rem;
+}
+.img3{
+	width: 2.6rem;
+	float: left;
+}
+#bj0{
+	position: absolute;
+	left: 1.4rem;
+	top: 1.2rem;
+	display: none;
+
+
+}
+#bj0 .p2{
+	margin-top: 1.3rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 2.7rem;
+	height: 2.5rem;
+	background: url(./bj-img2/bj_03.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.5rem;
+}
+#bj0 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj0 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj0 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj1{
+	position: absolute;
+	left: 1rem;
+	top: 1.3rem;
+	display: none;
+}
+#bj1 .p2{
+	margin-top: 1rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 3rem;
+	height: 2.5rem;
+	background: url(./bj-img1/矩形-3-拷贝.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.2rem;
+}
+#bj1 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj1 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj1 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj2{
+	position: absolute;
+	left: 1rem;
+	top: 1.3rem;
+	display: none;
+}
+#bj2 .p2{
+	margin-top: 1rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 3rem;
+	height: 2.5rem;
+	background: url(./bj-img1/矩形-3-拷贝.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.2rem;
+}
+#bj2 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj2 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj2 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj3{
+	position: absolute;
+	left: 1.3rem;
+	bottom: 1.5rem;
+	display: none;
+}
+#bj3 .p2{
+	margin-top: 1.3rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 2.7rem;
+	height: 2.5rem;
+	background: url(./bj-img2/bj_03.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.5rem;
+}
+#bj3 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj3 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj3 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj4{
+	position: absolute;
+	left: 1.1rem;
+	bottom: 1.5rem;
+	display: none;
+}
+#bj4 .p2{
+	margin-top: 1.3rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 2.95rem;
+	height: 2.5rem;
+	background: url(./bj-img1/字框-拷贝-2.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+
+	padding-top: 0.3rem;
+	padding-left: 0.25rem;
+}
+#bj4 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj4 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj4 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj5{
+	position: absolute;
+	left: 0.1rem;
+	bottom: 1.5rem;
+	display: none;
+}
+#bj5 .p2{
+	margin-top: 1rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 2.95rem;
+	height: 2.5rem;
+	background: url(./bj-img1/字框-拷贝-2.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.25rem;
+}
+#bj5 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj5 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj5 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+
+#bj6{
+	position: absolute;
+	left: 1.4rem;
+	top: 1.3rem;
+	display: none;
+}
+#bj6 .p2{
+	margin-top: 1rem;
+	font-size: 0.2rem;
+	float: left;
+	color: #fff;
+	width: 3.2rem;
+	height: 2.5rem;
+	background: url(./bj-img1/字体框.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.4rem;
+}
+#bj6 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj6 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj6 .p2 span{
+	font-size: 0.16rem;
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj7{
+	position: absolute;
+	left: 0.9rem;
+	top: 1.5rem;
+	display: none;
+}
+#bj7 .p2{
+	margin-top: 1rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 2.95rem;
+	height: 2.5rem;
+	background: url(./bj-img1/矩形-3-拷贝.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.2rem;
+}
+#bj7 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj7 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj7 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj8{
+	position: absolute;
+	left: 0.7rem;
+	top: 1rem;
+	display: none;
+}
+#bj8 .p2{
+	margin-top: 1rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 2.95rem;
+	height: 2.5rem;
+	background: url(./bj-img1/矩形-3-拷贝.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.2rem;
+}
+#bj8 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj8 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj8 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj9{
+	position: absolute;
+	left: 1.4rem;
+	bottom: 1.4rem;
+	display: none;
+}
+#bj .img3{
+	width: 2.6rem;
+	float: left;
+}
+#bj9 .p2{
+	margin-top: 1rem;
+	font-size: 0.16rem;
+	float: left;
+	color: #fff;
+	width: 3.2rem;
+	height: 2.5rem;
+	background: url(./bj-img2/bj_03.png)0 0 no-repeat;
+	background-size: 3.2rem 2.5rem;
+	padding-top: 0.3rem;
+	padding-left: 0.4rem;
+}
+#bj9 .p2 .i1{
+	font-size: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+#bj9 .p2 .i1 b{
+	font-size: 0.16rem;
+	margin-left:0.15rem ;
+}
+#bj9 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+#bj10{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#bj10 .img4{
+	width:7.34rem;
+	margin-left: 0.3rem;
+}
+#bj10 .p2{
+	font-size: 0.16rem;
+	color: #fff;
+	width: 7.34rem;
+	background: url(./bj-img1/字框-拷贝.png)0 0 no-repeat;
+	background-size: 7.34rem 0.57rem;
+	padding-bottom: 0.1rem;
+}
+#bj10 .p2 .i1{
+	font-size: 0.3rem;
+	padding: 0 0.3rem;
+}
+#bj9 .p2 span{
+	display: inline-block;
+	width: 2.5rem;
+}
+ .you-img{
+	display:block;
+}
+ .you-img1{
+	display:none;
+}
+#bj{
+	display: block;
+}
+.con-di{
+	display: none;
+}
+

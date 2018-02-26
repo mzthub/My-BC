@@ -1,0 +1,216 @@
+body{ 
+	background: #000 center center;
+	animation: bgmove 2s linear 12s forwards;
+} 
+@keyframes bgmove{ 
+	from{
+		background: #000 center center;
+	}
+	to{
+		background: url("../img/bg.png") center center no-repeat;	
+	}
+}
+html{ width: 100px;}
+/* 下雪 */
+@keyframes mysnow{ 
+	0% { bottom: 100%; opacity: 0; } 
+	50% { opacity: 1;} 
+	100% { opacity: 1; bottom: 0%;} 
+} 
+.container{ 
+	position: fixed; 
+	top: 0rem;
+	left: 0rem;
+} 
+.pic{ 
+	position: absolute; 
+	opacity: 0; 
+	animation: mysnow 8s;
+	height: 0.3rem; 
+}
+/* logo */
+.logo{
+	width: 1.98rem;
+	height: 1.1rem;
+	animation: logomove 2s ease-in 5s forwards;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -0.55rem;
+	margin-left: -0.99rem;
+	opacity: 0;
+}
+/* logo动画 */
+@keyframes logomove{ 
+	from{
+		top: 50%;
+		left: 50%;
+		margin-top: -0.55rem;
+		margin-left: -0.99rem;
+		opacity: 0;
+	}
+	to{
+		top: 1.51rem;
+		left: 0.43rem;
+		margin-top: 0rem;
+		margin-left: 0rem;
+		opacity: 1;
+	}
+}
+/* 框内容 */
+.con{
+	width: 6.56rem;
+	height: 6.6rem;
+	margin-top: 1.98rem;
+	margin-left: 0.43rem;
+	text-align: center;
+	overflow: hidden;
+	background: url("../img/矩形-3-拷贝.png") 0 0 no-repeat;
+	background-size: 6.56rem 6.6rem;
+	animation: wenzi 2s linear 12s forwards;
+	opacity: 0;
+}
+.linetop{
+	width: 0rem;
+	height: 0.1rem;
+	background-color: #f3f3f3;
+	display: inline-block;
+	position: absolute;
+	top: 1.98rem;
+	left: 2.45rem;
+	animation: linemove1 1s linear 8s forwards;
+}
+.lineright{
+	width: 0.1rem;
+	height: 0rem;
+	background-color: #f3f3f3;
+	display: inline-block;
+	position: absolute;
+	top: 1.98rem;
+	right: 0.41rem;
+	animation: linemove2 1s linear 9s forwards;
+}
+.linebottom{
+	width: 0rem;
+	height: 0.1rem;
+	background-color: #f3f3f3;
+	display: inline-block;
+	position: absolute;
+	top: 8.49rem;
+	right: 0.42rem;
+	animation: linemove3 1s linear 10s forwards;
+}
+.lineleft{
+	width: 0.1rem;
+	height: 0rem;
+	background-color: #f3f3f3;
+	display: inline-block;
+	position: absolute;
+	top: 8.46rem;
+	left: 0.42rem;
+	animation: linemove4 1s linear 11s forwards;
+}
+/* 线动画 */
+@keyframes linemove1{ 
+	from{
+		width: 0rem;	
+	}
+	to{
+		width: 4.54rem;
+	}
+}
+@keyframes linemove2{ 
+	from{
+		height: 0rem;
+	}
+	to{
+		height: 6.61rem;
+	}
+}
+@keyframes linemove3{ 
+	from{
+		width: 0rem;
+	}
+	to{
+		width: 6.57rem;
+	}
+}
+@keyframes linemove4{ 
+	from{
+		height: 0rem;
+		top: 8.56rem;
+	}
+	to{
+		height: 5.81rem;
+		top: 2.79rem;
+	}
+}
+/* 文字 */
+.LANDWELL{
+	width: 4.69rem;
+	height: 0.41rem;
+	margin-top: 2.29rem;
+}
+.Welcome{
+	width: 4.74rem;
+	height: 0.91rem;
+	margin-top: 0.33rem;
+}
+.Homeofdesign{
+	width: 4.71rem;
+	height: 0.15rem;
+	margin-top: 0.22rem;
+}
+@keyframes wenzi{ 
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+/* 按钮 */
+.anniu{
+	width: 1.42rem;
+	height: 0.9rem;
+	margin-top: 0.7rem;
+	animation: anniumove 0.6s linear 12s forwards;
+	opacity: 0;
+}
+@keyframes anniumove{ 
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.btn{
+	width: 1.42rem;
+	height: 0.42rem;
+	border: 0.01rem solid #fff;
+	margin-left: 2.98rem;
+	text-align: center;
+	line-height: 0.42rem;
+	color: #fff;
+	font-size: 0.12rem;
+	cursor: pointer;
+}
+.jiantou{
+	width: 0.1rem;
+	height: 0.09rem;
+	margin-top: 0.14rem;
+	margin-left: 3.63rem;
+	display: inline-block;
+	background: url("../img/形状-1.png") 0 0 no-repeat;
+	background-size: 0.1rem 0.09rem;
+	animation: jiantoumove 0.6s linear 12s infinite;
+}
+@keyframes jiantoumove{ 
+	from{
+		margin-top: 0.14rem;
+	}
+	to{
+		margin-top: 0.28rem;
+	}
+}

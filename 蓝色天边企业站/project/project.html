@@ -1,0 +1,244 @@
+	<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>标题</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+	<!-- <link rel="stylesheet" href="./css/swiper-3.4.2.min.css"> -->
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 750px)" href="./css/大幅滚动1.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="./css/大幅滚动2.css" />
+	<script src="./jquery.min.js"></script>
+	
+	<!-- <script src="./swiper-3.4.2.jquery.min.js"></script> -->
+</head>
+<body>
+	<div class="Xiouter">
+		<div class="Xiinner">
+			<!-- 头部 -->
+			<div class="Xihead_outer">
+				<img src="./img/logo.png" alt="" class="Xilogo">
+				<img src="./img/daohang.png" alt="" id="nav">
+				<div class="Xihead" id="Xihead">
+					<ul class="Xihead_top">
+						<a href="../about us/about us.html">About</a>
+						<a href="../team introduce/team introduce.html">Team</a>
+						<a href="../project/project.html">项目案例</a>
+						<a href="../wechat/wechat.html">Wechat</a>
+						<a href="../contact/contact.html">concat</a>
+					</ul>
+					<div id="rc_h_right2">
+						<a href="../about us/about us.html">About</a>
+						<a href="../team introduce/team introduce.html">Team</a>
+						<a href="../project/project.html">项目案例</a>
+						<a href="../wechat/wechat.html">Wechat</a>
+						<a href="../contact/contact.html" class="show">concat</a>
+					</div>
+					<ul id="Xihead_bottom">
+						<li class="select">Design</li>
+						<li>Product</li>
+						<li>Portrait</li>
+						<li>Videos</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 中间内容 -->
+			<div id="Xicon_outer">
+				<ul id="Xihead_bottom1">
+					<li class="select">Design</li>
+					<li>Product</li>
+					<li>Portrait</li>
+					<li>Videos</li>
+				</ul>
+				<p id="Xileft" class="swiper-button-prev"></p>
+				<p id="Xiright" class="swiper-button-next"></p>
+				<p id="Xilist">
+					<em id="Xilist1">DESIGN</em>
+					<em id="Xilist2">everything is design！</em>
+					<em id="Xilist3"></em>
+				</p>
+				<!-- 蒙版 -->
+				 <div id="Ximeng"></div>		
+				<div id="Xicon_inner">
+					<div id="Xicona" class="swiper-container1" style="display:block;">
+						<p id="Xicon1" class="swiper-wrapper">
+							<img src="./img/01.png" alt="" class="swiper-slide">	
+							<img src="./img/01.png" alt="" class="swiper-slide">
+							<img src="./img/01.png" alt="" class="swiper-slide">
+							<img src="./img/01.png" alt="" class="swiper-slide">	
+						</p>
+					</div>
+					<div id="Xiconb" class="swiper-container2">
+						<p id="Xicon2" class="swiper-wrapper">
+							<img src="./img/02.png" alt="" class="swiper-slide">		
+							<img src="./img/07.jpg" alt="" class="swiper-slide">
+							<img src="./img/08.jpg" alt="" class="swiper-slide">
+							<img src="./img/09.jpg" alt="" class="swiper-slide">	
+						</p>
+					</div>		
+					<div id="Xiconc" class="swiper-container3">
+						<p id="Xicon3" class="swiper-wrapper">	
+							<img src="./img/03.png" alt="" class="swiper-slide">
+							<img src="./img/07.jpg" alt="" class="swiper-slide">
+							<img src="./img/08.jpg" alt="" class="swiper-slide">
+							<img src="./img/09.jpg" alt="" class="swiper-slide">	
+						</p>
+					</div>				
+					<div id="Xicond" class="swiper-container4">
+						<p id="Xicon4" class="swiper-wrapper">
+							<img src="./img/04.png" alt="" class="swiper-slide">		
+							<img src="./img/07.jpg" alt="" class="swiper-slide">
+							<img src="./img/08.jpg" alt="" class="swiper-slide">
+							<img src="./img/09.jpg" alt="" class="swiper-slide">	
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div id="foot"></div>	
+	</div>
+	<script>
+		var nav=document.getElementById('nav');
+		var rc_h_right2=document.getElementById('rc_h_right2');
+		
+		document.onclick=function(ev){
+			var ev=ev||window.event;
+			var tar=ev.target||target.srcElement;
+			if(tar.id == "nav"){
+				rc_h_right2.style.display="block";
+			}
+			if(tar.id != "nav"){
+				rc_h_right2.style.display="none";
+			}
+		}
+
+
+
+	    var xb=0;	
+	    $("#Xilist3").click(function(){
+	    	xb++;
+	    	if(xb>=4){
+	    		xb=0;
+	    	}
+	    	$("#Xicon_inner div").eq(xb).css("display","block").siblings().css("display","none"); 	
+	    	$("#Xihead_bottom li").eq(xb).addClass('select').siblings().removeClass('select');
+	    	$("#Xihead_bottom1 li").eq(xb).addClass('select').siblings().removeClass('select');
+	    	$("#Xilist1").html($("#Xihead_bottom li").eq(xb).html().toUpperCase());
+	    })
+	    $("#Xihead_bottom li").click(function(){
+	    	var i=$('#Xihead_bottom li').index(this);
+	    	$("#Xilist1").html($("#Xihead_bottom li").eq(i).html().toUpperCase());
+	    	$("#Xicon_inner div").eq(i).css("display","block").siblings().css("display","none");
+	    	$("#Xihead_bottom li").eq(i).addClass('select').siblings().removeClass('select'); 	
+	    })
+	    $("#Xihead_bottom1 li").click(function(){
+	    	var i=$('#Xihead_bottom1 li').index(this);
+	    	$("#Xilist1").html($("#Xihead_bottom1 li").eq(i).html().toUpperCase());
+	    	$("#Xicon_inner div").eq(i).css("display","block").siblings().css("display","none");
+	    	$("#Xihead_bottom1 li").eq(i).addClass('select').siblings().removeClass('select');
+	    })
+		
+		
+		
+		$.fn.extend({
+			imgRoll:function (){
+				var $_this=$(this);
+				var x=0;
+				var anm=true;
+				var imgW=$_this.find('.swiper-wrapper img').width();
+				console.log(imgW)
+				$_this.scrollLeft(0);//初始位置
+				//第五步：复制插入节点
+				var fir=$_this.find('.swiper-wrapper img:first').clone();
+				$_this.find('.swiper-wrapper').append(fir);
+				//第一步：点击左
+				$('#Xileft').click(function (){
+					if (anm) {
+						anm=false;
+						x--;
+						if (x<0) {
+							x=$_this.find('.swiper-wrapper img').length-2;
+							$_this.scrollLeft((imgW)*(x));
+						};
+						move();
+					};
+				});
+				//第二步：点击右
+				$('#Xiright').click(function (){
+					if (anm) {
+						anm=false;
+						x++; 
+						if (x>=$_this.find('.swiper-wrapper img').length) {
+							x=1;
+							$_this.scrollLeft(0);
+						};
+						move();
+					};
+				});			
+				//第六步：提取公用部分
+				function move(){
+					var kuandu=$("#Xicon_inner div").width();
+					console.log(kuandu)
+					if(document.documentElement.clientWidth>=750){
+						kuandu=713.16;
+						
+					}else if(document.documentElement.clientWidth<=750){
+						kuandu=337.27;
+						
+					}
+					$_this.stop().animate({scrollLeft:(kuandu)*x},function (){
+						anm=true;
+					});
+				}
+			}
+		})
+		$(function (){
+			$('#Xicona').imgRoll();
+			$('#Xiconb').imgRoll();
+			$('#Xiconc').imgRoll();
+			$('#Xicond').imgRoll();
+		})
+		$(function(){
+			$(".Xiouter").css({
+				"background-size":"105% 105%"
+			})
+			function move(){
+				$(document).mousemove(function(e){
+					var ww=document.documentElement.clientWidth;
+					var wh=document.documentElement.clientHeight;
+					var e=event||window.event;
+					var x=e.clientX/ww*100;
+					var y=e.clientY/wh*100;
+					$(".Xiouter").css({
+						"background-position": x+"% "+y+"%"
+					})
+				})
+			}
+			time=setTimeout(move,1500);
+		})
+		var time=setInterval(function(){
+			var bili;
+			if(document.documentElement.clientWidth>=750){
+				bili=1920;
+				
+			}else if(document.documentElement.clientWidth<=750){
+				bili=750;
+				
+			}
+
+			function rem(bili){
+				var html=document.getElementsByTagName('html')[0];
+				var Ww=document.documentElement.clientWidth;
+				var scale=Ww/bili;
+				html.style.fontSize=scale*100+"px";
+			}
+			rem(bili);
+			window.onresize=function(bili){
+				rem(bili);
+			}
+		},1)
+	</script>
+</body>
+</html>

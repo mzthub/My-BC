@@ -1,0 +1,143 @@
+html{
+	font-size: 100px;
+}
+#outer{
+	width:19.2rem;
+	height:10rem;
+	background: url(".././img/beijingtu.jpg") 0 0 no-repeat;
+	-webkit-background-size: 19.2rem 10rem;
+	background-size: 19.2rem 10rem;
+}
+#inner{
+	margin:0 auto ;
+	width: 12.82rem;
+	height: 9.6rem;
+}
+#header{
+	height: 1.7rem;
+	line-height: 1.7rem;
+}
+#header_img{
+	width: 1.99rem;
+	height: 1.11rem;
+	padding-top: 0.23rem;
+	padding-bottom: 0.4rem;
+}
+#nav a{
+	float: left;
+	list-style: none;
+	font-size: 0.2rem;
+	padding-left: 0.6rem;
+	padding-right: 0.6rem;
+	border-right: 0.01rem solid #fff;
+	color: #fff;
+	height: 0.15rem;
+	text-decoration: none;
+
+}
+#nav a:nth-child(1){
+	font-size: 0.25rem;
+
+}
+#nav a:nth-child(5){
+	float: left;
+	list-style: none;
+	font-size: 0.2rem;
+	padding-left: 0.6rem;
+	padding-right: 0.2rem;
+	border-right: none;
+	color: #fff;
+	height: 0.15rem;
+
+}
+#nav{
+	padding-left: 0.1rem;
+	margin-top: 0.78rem;
+	float: right;
+	height: 0.15rem;
+	line-height: 0.15rem;
+}
+#box{
+	width: 12.82rem;
+	height: 7.2rem;
+	border: 0.01rem solid #fff;
+}
+#box p{
+	width: 9.75rem;
+	margin: 0 auto;
+}
+#box p:nth-child(1){
+	color: #fff;
+	font-size: 0.33rem;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1.18rem;
+	padding-bottom: 0.18rem;
+}
+#box p:nth-child(2){
+	color: #fff;
+	text-align: center;
+	font-size: 0.14rem;
+	padding-bottom: 0.57rem;
+}
+#box p:nth-child(3){
+	color: #fff;
+	text-align: center;
+	font-size: 0.2rem;
+	padding-bottom: 0.57rem;
+
+}
+#box p:nth-child(4){
+	color: #fff;
+	text-align: center;
+	font-size: 0.2rem;
+	margin-bottom: 0.34rem;
+}
+#btn{
+	margin:0.34rem 5.5rem;
+	/* margin-top: 0.34rem; */
+	width: 1.79rem;
+	height: 0.51rem;
+	border: none;
+	background: url(".././img/READ-MORE.png") 0 0 no-repeat;
+	-webkit-background-size: 1.79rem 0.51rem;
+	background-size: 1.79rem 0.51rem; 	
+}
+#meng{
+	background-color: #000;
+	opacity: 0.85;
+	width: 9.83rem;
+	height: 9rem;
+	position: absolute;
+	top: 0px;
+	left: 4.7rem;
+	display: none;
+}
+#meng p{
+	width: 8.75rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.2rem;
+	margin-left: 0.62rem;
+}
+#meng p:nth-child(1){
+	
+	margin-top: 2.94rem;
+	
+	
+
+}
+#meng p:nth-child(2){
+	margin-top: 0.35rem;
+	margin-bottom: 0.35rem;
+
+}
+#nav_750{
+	display: none;
+}
+#nav_gray
+{
+	display: none;
+}
+
+

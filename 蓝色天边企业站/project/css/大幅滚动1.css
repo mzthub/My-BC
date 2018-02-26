@@ -1,0 +1,170 @@
+html{ width: 100px;}
+.Xiouter{
+	width: 7.5rem;
+	height: 12.95rem;
+	background: url("../img/01bg.png") 0 0 no-repeat;
+	background-size: 7.5rem 12.95rem;
+}
+.Xiinner{
+	margin: 0 auto;
+	width: 6.12rem;
+	height: 11.83rem;	
+	position: relative;
+}
+.Xihead_outer{
+	width: 6.12rem;
+	height: 2.29rem;
+}
+.Xihead_outer img{
+	width: 1.98rem;
+	height: 1.1rem;
+	margin-top: 0.75rem;
+}
+#nav{
+	float: right;
+	margin-top: 1.19rem;
+	margin-right: 0.16rem;
+	width: 0.46rem;
+	height: 0.35rem;
+	background-size: 100%;
+}
+.Xihead ul{
+	display: none;
+}
+/* -------------------- */
+#rc_h_right2{
+	width: 1.04rem;
+	height: 1.56rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color: #fff;
+	background: rgba(26,26,26,0.6);
+	position: absolute;
+	top: 1.18rem;
+	right: 0.69rem;
+	z-index: 2;
+	display: none;
+}
+#rc_h_right2 a{
+	display: block;
+	color: #fff;
+	height: 0.3rem;
+}
+
+#rc_h_right2 a:nth-child(3){
+	font-size: 0.25rem;
+}
+#Xicon_outer{
+	width: 6.12rem;
+	height: 9.54rem;
+	position: relative;
+}
+#Xicon_outer>p{
+	position: absolute;
+	z-index: 2;
+}
+#Xileft{
+	width: 3.06rem;
+	height: 0.53rem;
+	top: 5.93rem;
+	left: 0;
+	border: 1px solid #929292;
+	background: url("../img/左箭头.png") center center no-repeat;
+	background-size: 0.24rem 0.16rem;
+}
+#Xiright{
+	width: 3.05rem;
+	height: 0.53rem;
+	top: 5.93rem;
+	left: 3.06rem;
+	border: 1px solid #929292;
+	background: url("../img/右箭头.png") center center no-repeat;
+	background-size: 0.24rem 0.16rem;
+}
+#Xicon_inner{
+	margin: 0 auto;
+	width: 6.11rem;
+	height: 5.93rem;
+	overflow: hidden;
+}
+#Xicon_inner div{
+	width: 32rem;
+	height: 5.93rem;
+	overflow: hidden;
+	display: none;	
+}
+#Xicon_inner p{
+	width: 50rem;
+	height: 5.93rem;
+}
+#Xicon_inner img{
+	width: 6.11rem;
+	height: 5.93rem;
+	float: left;
+}
+#Xihead_bottom1{
+	width: 6.12rem;
+	height: 3.08rem;
+	top: 6.46rem;
+	position: absolute;
+	z-index: 2;
+}
+#Xihead_bottom1 li{
+	width: 3.06rem;
+	height: 1.54rem;
+	line-height: 1.54rem;
+	font-size: 0.32rem;
+	color: #929292;
+	text-align: center;
+	float: left;
+}
+#Xihead_bottom1 .select{
+	color: #fff;
+}
+#Ximeng{
+	width: 6.12rem;
+	height: 9.54rem;
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.4;
+	z-index: 1;
+}
+#Xilist{
+	cursor: pointer;
+	left: 0;
+	top: 3.78rem;
+	z-index: 2;
+}
+#Xilist em{
+	display: block;
+	color: #fff;
+}
+#Xilist em:nth-child(1){
+	height: 0.53rem;
+	font-size: 0.72rem;
+	font-family: Arial;
+	font-weight: bold;
+}
+#Xilist em:nth-child(2){
+	height: 0.16rem;
+	font-size: 0.18rem;
+	margin-top: 0.19rem;
+	font-family: Calibri Italic;
+	font-style: italic;
+}
+#Xilist em:nth-child(3){
+	width: 0.86rem;
+	height: 0.26rem;
+	background: url("../img/more.png") 0 0 no-repeat;
+	background-size: 0.86rem 0.16rem;
+	margin-top: 0.28rem;
+}
+#foot{
+	width: 7.5rem;
+	height: 0.77rem;
+	background: url("../img/foot.png") 0 0 no-repeat;
+	background-size: 100%;
+	border-top: 1px solid #fff;
+}

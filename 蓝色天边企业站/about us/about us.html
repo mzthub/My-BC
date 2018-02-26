@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>标题</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)"href="./css/LSTB_PC_About_1920.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 750px)" href="./css/LSTB_PC_About_750.css" />
+	<link rel="stylesheet" href="./css/reset.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no">
+	<style>
+		html{
+			font-size: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div id="outer">
+		<div id="inner">
+			<div id="header">
+				<img src="./img/logo.png" alt="" id="header_img">
+				<ul id="nav">
+					<a href="../about us/about us.html">关于我们</a>
+					<a href="../team introduce/team introduce.html">Team</a>
+					<a href="../project/project.html">project</a>
+					<a href="../wechat/wechat.html">Wechat</a>
+					<a href="../contact/contact.html">concat</a>
+				</ul>
+				<!-- 响应式750px布局使用 -->
+				<div id="nav_750"></div>
+				<ul id="nav_gray">
+					<a href="../about us/about us.html">关于我们</a>
+					<a href="../team introduce/team introduce.html">Team</a>
+					<a href="../project/project.html">project</a>
+					<a href="../wechat/wechat.html">Wechat</a>
+					<a href="../contact/contact.html">concat</a>
+				</ul>
+					
+				
+			</div>
+			<div id="con">
+				<div id="box">
+					<p>About us</p>
+
+					<p>Design comes from life, detail create quality.</p>
+
+					<p>Landwell was founded in 2002, mainly engaged in commercial photography, advertising portrait, promotional film shooting, graphic design, web design, UI design, planning and other related business promotion.</p>
+
+					<p>Business scope covers advertising industry, commerce, medicine, art, television and magazines and other related media. The spirit of "breakthrough innovation", "honesty first" concept, so that every customer has a sincere service. Not only that, the Landwell also has advanced equipment, professional venues, first-class management system, good public relations and stable customer base.</p>
+
+					<button id="btn"></button>
+				</div>
+			</div>
+			<div id="meng">
+				<p>蓝色天边影像成立于2002年，主要从事商业摄影、广告人像、宣传片拍摄、平面设计、网页设计、UI设计、策划推广等相关业务。</p>
+				<p>经营范围涉及广告业、电商业、医药业、艺术文化传播、电视和杂志等相关媒体。本着“突破创新”，“诚信至上”的理念，使每一位客户得到真挚的服务。不仅如此，蓝色天边影像还拥有先进的设备，专业的场地，一流的管理制度，良好的公共关系和稳定的客户群。</p>
+				<p>地址：北京市西城区德内大街265号</p>
+				<p>电话：010-83285746,13681373516</p>
+				<p>邮箱：taozheng111@126.com</p>
+				<p>QQ：249628291</p>
+				<p>微信平台：landwell1981</p>
+				<p>联系人：陶先生</p>
+
+			</div>
+		</div>
+	</div>
+	<script>
+		var btn = document.getElementById('btn');
+		var outer = document.getElementById('outer');
+		var meng = document.getElementById('meng');
+		var nav_750 = document.getElementById('nav_750');
+		var nav_gray = document.getElementById('nav_gray');
+
+		document.onclick=function (){
+			var ev=ev||window.event;
+			var tar=ev.target||target.srcElement;
+			if (tar.id=="btn") {
+				meng.style.display="block";	
+			};
+			if (tar.id!="btn") {
+				meng.style.display="none";	
+			};
+			if (tar.id=="nav_750") {
+				nav_gray.style.display="block";	
+			};
+			if (tar.id!="nav_750") {
+				nav_gray.style.display="none";	
+			};
+			
+		}
+		document.onmousemove=function (){
+			var ev=ev||window.event;
+			var tar=ev.target||target.srcElement;
+			var moveX=19.2+ev.clientX/1000;
+			var moveY=9.6+ev.clientY/1000;
+			// ou0t1e+r.style.backgroundSize=moveX+"rem "+moveY+"rem";
+
+		}
+			console.log(outer.style.backgroundSize)
+
+
+		function resetsize(){
+	     	var html=document.getElementsByTagName('html')[0];
+	    	 var Ww=document.documentElement.clientWidth;
+	    	 if (Ww>750) {
+	    	 	html.style.fontSize=Ww/1920*100+"px";
+	    	 }else{
+	    	 	html.style.fontSize=Ww/750*100+"px";
+	    	 }
+	     	
+		}
+		resetsize();
+		window.onresize=function(){
+		     resetsize();
+		}
+
+	</script>
+</body>
+</html>

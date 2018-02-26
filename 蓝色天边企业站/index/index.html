@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>标题</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes" />
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" media="screen and (min-width:750px) and (max-width:1920px)"  href="./css/shouye1.css">
+    <link rel="stylesheet" media="screen and (max-width:750px)"  href="./css/shouye2.css">
+    <!-- <link rel="stylesheet"  href="./css/shouye2.css"> -->
+    <script src="./js/index.js"></script>
+<style>
+html,body{
+	font-size: 100px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+</style>
+</head>
+<body>
+	<div id="bg"></div>
+	<div id="bg-m"></div>
+	<div id="nav">
+		<a href="../about us/about us.html">About</a>
+		<a href="../team introduce/team introduce.html">Team</a>
+		<a href="../project/project.html">Project</a>
+		<a href="../wechat/wechat.html">Wechat</a>
+		<a href="../contact/contact.html" style="border:none;">Contact</a>
+	</div>
+	<i id="bor" src="./img/shouye/bor.png" alt=""></i>
+	<i id="logo" src="./img/shouye/logo.png" alt=""></i>
+	<div id="con">
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+		<u></u>
+	</div>
+	<img id="menu" src="./img/shouye/menu.png" alt="">
+	<p>Copyright<b>©</b> Landwell Photograp 2017. All Rights Reserved</p>
+<script>
+	
+		var nav=document.getElementById('nav2');
+		var rc_h_right2=document.getElementById('rc_h_right2');
+		
+		document.onclick=function(ev){
+			var ev=ev||window.event;
+			var tar=ev.target||target.srcElement;
+			if(tar.id == "nav2"){
+				rc_h_right2.style.display="block";
+			}
+			if(tar.id != "nav2"){
+				rc_h_right2.style.display="none";
+			}
+		}
+</script>
+</body>
+</html>

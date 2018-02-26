@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=1.0,user-scalable=no"/>
+	<title>蓝色天边</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="./reset.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 750px)" href="./contact_x.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 750px)" href="./contact.css" />
+</head>
+<body>
+	<div class="rc_outer">
+		<div class="rc_inner">
+			<div class="rc_head">
+				<img src="./img/c_logo.png" alt="" class="logo">
+				<img src="./img/c_x_img2.png" alt="" id="c_x_right">
+				<div id="rc_h_right">
+					<a href="../about us/about us.html">About</a>
+					<a href="../team introduce/team introduce.html">Team</a>
+					<a href="../project/project.html">Project</a>
+					<a href="../wechat/wechat.html">Wechat</a>
+					<a href="../concat/concat.html" class="show">联系我们</a>
+				</div>
+				<!-- ------------------- -->
+				<div id="rc_h_right2">
+					<a href="../about us/about us.html">About</a>
+					<a href="../team introduce/team introduce.html">Team</a>
+					<a href="../project/project.html">Project</a>
+					<a href="../wechat/wechat.html">Wechat</a>
+					<a href="../concat/concat.html" class="show">联系我们</a>
+				</div>
+			</div>
+			<ul class="rc_content">
+				<li class="rc_contact">
+					<div class="rc_c_left">
+						<h3>GET IN TOUCH</h3>
+						<span>Tel: 010-83285746  13681373516</span>
+						<span>Mail: taozheng111@126.com</span>
+						<span>Wechat: land well 1981</span>
+						<span>QQ: 249628291</span>
+						<span>Contact: Mr.Tao</span>
+						<img src="./img/c_ma.png" alt="">
+					</div>
+					<form method="" action="###" class="rc_c_right">
+						<span>Name:</span>
+						<input type="text" name="" value="">
+						<span>E-mail:</span>
+						<input type="email" name="" value="">
+						<span>Tel:</span>
+						<input type="tel" name="" value="">
+						<span>Message:</span>
+						<textarea name=""></textarea>
+						<input type="submit" name="" value="" class="rc_btn">
+					</form>
+				</li>
+			</ul>
+		</div>
+		<p class="rc_foot">
+			Copyright &copy; Landwell &nbsp;Photograp &nbsp;2017. &nbsp;All &nbsp;Rights &nbsp;Reserved
+		</p>
+	</div>
+	
+	<script>
+		var c_x_right=document.getElementById('c_x_right');
+		var rc_h_right2=document.getElementById('rc_h_right2');
+		
+		document.onclick=function(ev){
+			var ev=ev||window.event;
+			var tar=ev.target||target.srcElement;
+			if(tar.id == "c_x_right"){
+				rc_h_right2.style.display="block";
+			}
+			if(tar.id != "c_x_right"){
+				rc_h_right2.style.display="none";
+			}
+		}
+
+		
+		function rem(){
+			var pc_width;
+			var html=document.getElementsByTagName('html')[0];
+			var Ww=document.documentElement.clientWidth;
+			if(Ww>750){
+				pc_width=1920;
+			}else{
+				pc_width=750;
+			}
+			var scale=Ww/pc_width;
+			html.style.fontSize=scale*100+"px";
+		}
+		rem();
+		window.onresize=function(){
+			rem();
+		}
+	</script>
+</body>
+</html>

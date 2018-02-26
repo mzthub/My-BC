@@ -1,0 +1,135 @@
+html{
+	font-size: 100px;
+}
+.rc_outer{
+	width: 19.2rem;
+	padding-bottom: 0.7rem;
+	padding-top: 0.23rem;
+	background: url(./img/c_bg.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.rc_inner{
+	width: 12.8rem;
+	height: 8.67rem;
+	margin: 0 auto;
+}
+
+/* 头部 */
+	.rc_head{
+		height: 1.47rem;
+		overflow: hidden;
+	}
+	.rc_head .logo{
+		width: 1.98rem;
+		height: 1.1rem;
+		float: left;
+	}
+	#rc_h_right2{
+		display: none;
+	}
+	#rc_h_right{
+		width: 9.35rem;
+		padding-top: 0.5rem;
+		float: right;
+		margin-right: -0.9rem;
+		overflow: hidden;
+	}
+	#rc_h_right a{
+		width: 1.2rem;
+		height: 0.25rem;
+		line-height: 0.2rem;
+		padding-left: 0.45rem;
+		border-right: 0.01rem solid #fff;
+		font-size: 0.2rem;
+		color: #fff;
+		float: left;
+	}
+	#rc_h_right a:nth-child(5){
+		border: none;
+	}
+	#rc_h_right .show{
+		font-size: 0.25rem;
+	}
+	#c_x_right{
+		display: none;
+	}
+
+/* 内容 */
+	.rc_content .rc_contact{
+		width: 10.26rem;
+		height: 4.6rem;
+		padding: 1.38rem 1.12rem 1.18rem 1.38rem;
+		border: 0.02rem solid #717171;
+		background: rgba(55,55,55,0.6);
+	}
+	.rc_contact .rc_c_left{
+		float: left;
+		width: 4.78rem;
+	}
+	.rc_contact .rc_c_left h3{
+		height: 1.2rem;
+		font-size: 0.36rem;
+		font-weight: normal;
+		color: #fff;
+		margin-left: -0.6rem;
+		padding: 0;
+	}
+	.rc_contact .rc_c_left span{
+		display: block;
+		font-size: 0.18rem;
+		color: #7a7a7a;
+		padding-bottom: 0.19rem;
+	}
+	.rc_contact .rc_c_left img{
+		display: block;
+		width: 1.29rem;
+		height: 1.29rem;
+	}
+
+	.rc_contact .rc_c_right{
+		float: right;
+		width: 5.46rem;
+		overflow: hidden;
+	}
+	.rc_contact .rc_c_right span{
+		display: block;
+		padding-bottom: 0.3rem;
+		font-size: 0.2rem;
+		color: #fff;
+	}
+	.rc_contact .rc_c_right input{
+		width: 5.41rem;
+		padding-left: 0.05rem;
+		padding-bottom: 0.05rem;
+		margin-bottom: 0.08rem;
+		font-size: 0.2rem;
+		color: #fff;
+		border: none;
+		border-bottom: 0.01rem solid #fff;
+		background: rgba(55,55,55,0);
+	}
+	.rc_contact .rc_c_right textarea{
+		width: 5.41rem;
+		height: 0.6rem;
+		padding-left: 0.05rem;
+		font-size: 0.2rem;
+		color: #fff;
+		border: none;
+		border-bottom: 0.01rem solid #fff;
+		background: rgba(55,55,55,0);
+	}
+	.rc_contact .rc_c_right .rc_btn{
+		float: right;
+		width: 0.48rem;
+		height: 0.25rem;
+		margin-top: 0.14rem;
+		border: none;
+		/* background: rgba(55,55,55,0); */
+		background: url(./img/c_send.png) 0 0 no-repeat;
+		background-size: 0.42rem 0.15rem;
+	}
+
+.rc_outer .rc_foot{
+	display: none;
+}
+

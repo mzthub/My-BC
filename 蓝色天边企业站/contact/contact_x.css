@@ -1,0 +1,143 @@
+html{
+	font-size: 100px;
+}
+.rc_outer{
+	width: 7.5rem;
+	padding-top: 0.75rem;
+	background: url(./img/c_bg.jpg) center 0 no-repeat;
+	background-size: 19.2rem 100%;
+}
+.rc_inner{
+	width: 6.12rem;
+	/* height: 10.97rem; */
+	margin: 0 auto;
+	position: relative;
+}
+
+/* 头部 */
+	.rc_head{
+		height: 1.7rem;
+		overflow: hidden;
+	}
+	.rc_head .logo{
+		width: 1.98rem;
+		height: 1.1rem;
+		float: left;
+	}
+	#c_x_right{
+		width: 0.46rem;
+		height: 0.35rem;
+		float: right;
+		margin-top: 0.44rem;
+		margin-right: 0.17rem;
+	}
+	#rc_h_right{
+		display: none;
+	}
+	#rc_h_right2{
+		width: 1.04rem;
+		height: 1.56rem;
+		text-align: center;
+		font-size: 0.2rem;
+		color: #fff;
+		background: rgba(26,26,26,0.6);
+		position: absolute;
+		top: 0.44rem;
+		right: 0.69rem;
+		z-index: 2;
+		display: none;
+	}
+	#rc_h_right2 a{
+		display: block;
+		color: #fff;
+		height: 0.3rem;
+	}
+	#rc_h_right2 a:nth-child(5){
+		font-size: 0.25rem;
+	}
+
+/* 内容 */
+	.rc_content .rc_contact{
+		width: 5.46rem;
+		/* height: 9.15rem; */
+		padding: 0 0.35rem 0.08rem 0.27rem;
+		border: 0.02rem solid #717171;
+		background: rgba(55,55,55,0.3);
+	}
+	.rc_contact .rc_c_left{
+		text-align: center;
+	}
+	.rc_contact .rc_c_left h3{
+		height: 0.76rem;
+		line-height: 0.76rem;
+		font-size: 0.36rem;
+		font-weight: normal;
+		color: #fff;
+		padding: 0;
+	}
+	.rc_contact .rc_c_left span{
+		display: block;
+		font-size: 0.18rem;
+		color: #fff;
+		padding-bottom: 0.18rem;
+	}
+	.rc_contact .rc_c_left img{
+		display: block;
+		width: 1.29rem;
+		height: 1.29rem;
+		margin: 0 auto;
+	}
+
+	.rc_contact .rc_c_right{
+		width: 5.46rem;
+		padding-top: 0.6rem;
+		overflow: hidden;
+	}
+	.rc_contact .rc_c_right span{
+		display: block;
+		padding-bottom: 0.31rem;
+		font-size: 0.18rem;
+		color: #fff;
+	}
+	.rc_contact .rc_c_right input{
+		width: 5.4rem;
+		padding-left: 0.05rem;
+		padding-bottom: 0.05rem;
+		margin-bottom: 0.08rem;
+		font-size: 0.2rem;
+		color: #fff;
+		border: none;
+		border-bottom: 0.01rem solid #fff;
+		background: rgba(55,55,55,0);
+	}
+	.rc_contact .rc_c_right textarea{
+		width: 5.41rem;
+		height: 1.06rem;
+		padding-left: 0.05rem;
+		font-size: 0.2rem;
+		color: #fff;
+		border: none;
+		border-bottom: 0.01rem solid #fff;
+		background: rgba(55,55,55,0);
+	}
+	.rc_contact .rc_c_right .rc_btn{
+		float: right;
+		width: 0.48rem;
+		height: 0.18rem;
+		margin-top: 0.16rem;
+		border: none;
+		/* background: rgba(55,55,55,0); */
+		background: url(./img/c_send.png) 0 0 no-repeat;
+		background-size: 0.42rem 0.15rem;
+	}
+
+	.rc_outer .rc_foot{
+		margin-top: 0.46rem;
+		border-top: 0.01rem solid #fff;
+		height: 0.76rem;
+		text-align: center;
+		line-height: 0.76rem;
+		font-size: 0.2rem;
+		color: #fff;
+	}
+
