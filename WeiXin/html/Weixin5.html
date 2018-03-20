@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>良辰开回家</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
+	<link rel="stylesheet" href="../css/Weixin5.css">
+</head>
+<body>
+	<div class="outer">
+		<img src="../img/qckhj.png" alt="" class="con">
+		<div class="con1">
+		<p>考验人品的时候到了，只要留下您的姓名和联系方式就有机会抽取良辰R30、良辰晨风一年使用权大奖。</p>
+		<input type="text" name="" value="请输入姓名" id="con2"><br>
+		<input type="text" name="" value="请输入手机号" id="con3">
+		</div>
+		<h3 id="con4">提交</h3>
+		<a href="###" id="con5">活动规则</a>
+		<span class="con8">分享好友积攒人品</span>
+			<img src="../img/weixin.png" alt="" class="con9">
+			<img src="../img/xlwb.png" alt="" class="con9">
+			<img src="../img/txwb.png" alt="" class="con9">
+			<div id="meng">
+			</div>
+			<div id="con11">
+			<h3>活动规则</h3>
+			<ol class="con12">
+				<li>广州车展期间：关注启辰官方微信，参与“码上有礼，辰心放送”活动并留下本人姓名及手机号码，即可参与</li>
+				<li>11月21日至11月29日，每日抽取一台启辰R30一年使用权大奖：一台启辰晨风一年使用权。</li>
+				<li>每天16:00对当天所有参与者进行抽选，抽中的参与者若不在现场，将取消中奖者资格并继续抽奖（启辰晨风一年使用权除外）。</li>
+				<li>终极大奖从车展期间所有参与者中抽取，后续联系进行兑奖。</li>
+				<li>此活动每人仅限参与一次；</li>
+					<li>本活动最终解释权归东风日产启辰所有。</li>
+				</ol>
+				<h2 id="con13">知道了</h2>
+			</div>
+			<div id="con16">
+				<h1 class="con14">提交成功！</h1>
+				<p class="con15">说好的16:00现场抽奖，启辰展台与您不见不散！</p>
+				<h3 id="con17">不见不散</h3>
+			</div>
+	</div>
+	<script>
+		function rem(){
+			var html=document.getElementsByTagName('html')[0];
+			var Ww=document.documentElement.clientWidth;
+			var scale=Ww/640;
+			html.style.fontSize=scale*100+"px";
+		}
+		rem();
+
+		window.onresize=function(){
+			rem();
+		}
+		var con4=document.getElementById('con4');
+		var con5=document.getElementById('con5');
+		var con13=document.getElementById('con13');
+		var con11=document.getElementById('con11');
+		var meng=document.getElementById('meng');
+		var con16=document.getElementById('con16');
+		var con17=document.getElementById('con17');
+		var con2=document.getElementById('con2');
+		var con3=document.getElementById('con3');
+		con5.onclick=function(){
+			meng.style.display="block";
+			con11.style.display="block";
+		}
+		con13.onclick=function(){
+			meng.style.display="none";
+			con11.style.display="none";
+		}
+		con4.onclick=function(){
+			if (con2.value!="请输入姓名"&&con3.value!="请输入电话号码") {
+				meng.style.display="block";
+				con16.style.display="block";
+			};
+			
+		}
+		con17.onclick=function(){
+			meng.style.display="none";
+			con16.style.display="none";
+		}
+		
+		con2.onfocus=function(){
+		if (con2.value="请输入姓名") {
+			con2.value="";
+		};
+		}
+		con2.onblur=function(){
+			if (con2.value=="") {
+				con2.value="请输入姓名";
+			}
+		}
+		con3.onfocus=function(){
+		if (con3.value="请输入电话号码") {
+			con3.value=""
+		};
+		}
+		con3.onblur=function(){
+			if (con3.value=="") {
+				con3.value="请输入电话号码";
+			}
+		}
+	</script>
+</body>
+</html>

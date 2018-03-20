@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>良辰开回家</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
+	<link rel="stylesheet" href="../css/Weixin6.css">
+</head>
+<body>
+	<div class="outer">
+		<img src="../img/bg02.jpg" alt="" class="con0">
+		<h1>很抱歉</h1>
+		<p>亲，每个微信号只可参加一次幸运大抽奖，感谢您一直以来对启辰的支持，祝您观展愉快！</p>
+	</div>
+	<script>
+		function rem(){
+			var html=document.getElementsByTagName('html')[0];
+			var Ww=document.documentElement.clientWidth;
+			var scale=Ww/640;
+			html.style.fontSize=scale*100+"px";
+		}
+		rem();
+
+		window.onresize=function(){
+			rem();
+		}
+	</script>
+</body>
+</html>

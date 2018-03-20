@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>抽奖结果</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
+	<link rel="stylesheet" href="../css/Weixin7.css">
+</head>
+<body>
+	<div class="outer">
+		<h1 class="con1">人品不错哦！</h1>
+		<div class="con2">
+			<p id="con3"></p>
+			<img src="" alt="" id="con0">
+			<p class="con4">请输入手机号码24小时内为您充值</p>
+			<input type="text" name="" value="" id="con5">
+			<h3 id="con6">确认提交</h3>
+		</div>
+		<span class="con8">分享好友积攒人品</span>
+			<img src="../img/weixin.png" alt="" class="con9">
+			<img src="../img/xlwb.png" alt="" class="con9">
+			<img src="../img/txwb.png" alt="" class="con9">
+			<div id="meng">
+				
+			</div>
+			<div id="con16">
+				<h1 class="con14">提交成功！</h1>
+				<p class="con15">说好的16:00现场抽奖，启辰展台与您不见不散！</p>
+				<h3 id="con17">不见不散</h3>
+			</div>
+	</div>
+	<script>
+		function rem(){
+			var html=document.getElementsByTagName('html')[0];
+			var Ww=document.documentElement.clientWidth;
+			var scale=Ww/640;
+			html.style.fontSize=scale*100+"px";
+		}
+		rem();
+
+		window.onresize=function(){
+			rem();
+		}
+		var con6=document.getElementById('con6');
+		var meng=document.getElementById('meng');
+		var con16=document.getElementById('con16');
+		var con17=document.getElementById('con17');
+		var con3=document.getElementById('con3');
+		var con5=document.getElementById('con5');
+
+		con6.onclick=function(){
+			if (con5.value!="") {
+				meng.style.display="block";
+				con16.style.display="block";
+			};
+		}
+		con17.onclick=function(){
+			meng.style.display="none";
+			con16.style.display="none";
+		}
+		var x=Math.floor(Math.random()*101);
+		if (x<=50) {
+			con0.src="../img/y10.png";
+			con3.innerHTML="恭喜您抽中价值10元的手机话费！请留下联系方式，24小时内话费将为您送上，请留意短信，谢谢！";
+		};
+		if (x>=50&&x<=80) {
+			con0.src="../img/y20.png";
+			con3.innerHTML="恭喜您抽中价值20元的手机话费！请留下联系方式，24小时内话费将为您送上，请留意短信，谢谢！";
+		};
+		if (x>=80&&x<=100) {
+			con0.src="../img/y30.png";
+			con3.innerHTML="恭喜您抽中价值30元的手机话费！请留下联系方式，24小时内话费将为您送上，请留意短信，谢谢！";
+		};
+	</script>
+</body>
+</html>

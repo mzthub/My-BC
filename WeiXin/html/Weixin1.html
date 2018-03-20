@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>码上辰献</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no">
+	<link rel="stylesheet" href="../css/Weixin1.css">
+</head>
+<body>
+	<div class="outer">
+		<img src="../img/bg02.jpg" alt="" class="con0">
+		<img src="../img/msyl.png" alt="" class="con1">
+		<a href="###" class="con2" id="con3">我在车展 马上拿奖</a>
+		<a href="###" class="con2" id="con31">不在现场 试试手气</a>
+		<a href="###" id="con4">活动说明</a>
+		<div id="meng">
+			
+		</div>
+		<div id="con5">
+				<h3>活动说明：</h3>
+				<p>抽奖活动哪家强，东风日产看启辰，广州车展期间，启辰君为您准备了多彩铅笔套装、购车代金券、晨风车模、手机话费等精美礼品；</p>
+				<p>车展现场参与活动的用户百分百中奖，留下联系方式更有机会赢取启辰R30、启辰晨风一年使用权大奖；场外用户参与活动也有机会获得话费充值大奖。</p>
+				<p>心动了吗？那就马上行动吧!</p>
+				<p>参与车展现场抽奖活动，中奖礼品只限当天在启辰展台现场兑奖，过时不候哦，详情请咨询启辰展台工作人员。
+				</p>
+				<a href="###" class="con2" id="con7">马上抽奖</a>
+		</div>
+		<div id="con6">
+			<h4>请确认你是否在车展现场，</h4>
+			<h4>以免无法兑奖，</h4>
+			<h4>不在车展现场还可以兑换话费哦！</h4>
+			<a href="Weixin2.html" class="con2">确定</a>
+			<a href="###" class="con2" id="con8">重新选择</a>
+		</div>
+	</div>
+	<script>
+		function rem(){
+			var html=document.getElementsByTagName('html')[0];
+			var Ww=document.documentElement.clientWidth;
+			var scale=Ww/640;
+			html.style.fontSize=scale*100+"px";
+		}
+		rem();
+
+		window.onresize=function(){
+			rem();
+		}
+		var con4=document.getElementById('con4');
+		var con3=document.getElementById('con3');
+		var meng=document.getElementById('meng');
+		var con5=document.getElementById('con5');
+		var con6=document.getElementById('con6');
+		var con7=document.getElementById('con7');
+		var con8=document.getElementById('con8');
+		var con31=document.getElementById('con31');
+		con4.onclick=function(){
+			meng.style.display="block";
+			con5.style.display="block";
+		}
+		con3.onclick=function(){
+			meng.style.display="block";
+			con6.style.display="block";
+		}
+		con7.onclick=function(){
+			meng.style.display="none";
+			con5.style.display="none";
+		}
+		con8.onclick=function(){
+			meng.style.display="none";
+			con6.style.display="none";
+		}
+		con31.onclick=function(){
+			setcookie("sad","sca",7)
+			window.location.href="Weixin7.html";
+		}
+		if (document.cookie) {
+			con31.onclick=function(){
+			window.location.href="Weixin6.html";
+		}
+			con7.onclick=function(){
+			window.location.href="Weixin6.html";
+		}
+		};
+    function setcookie(key,value,day){
+			var date=new Date();
+      		date.setDate(date.getDate()+day);
+			document.cookie=key+"="+value+";t="+date;
+		}
+	</script>
+</body>
+</html>
